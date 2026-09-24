@@ -345,7 +345,7 @@ public sealed class ConfigWindow : Window
 
         ImGui.Separator();
         if (ImGui.Button("EMERGENCY STOP")) ctl.Stop();
-        ImGui.TextDisabled("Chat command: /lovense stop");
+        ImGui.TextDisabled("Chat command: /tankbustin stop");
     }
 
     private void EditText(string label, string value, Action<string> set, int maxLength, float width = 240)
