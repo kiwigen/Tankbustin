@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tankbustin", "Tankbustin\Tankbustin.csproj", "{5CCF6EA8-A538-4C7C-8C17-D793380E2876}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CCF6EA8-A538-4C7C-8C17-D793380E2876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CCF6EA8-A538-4C7C-8C17-D793380E2876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CCF6EA8-A538-4C7C-8C17-D793380E2876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CCF6EA8-A538-4C7C-8C17-D793380E2876}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
