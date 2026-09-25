@@ -39,6 +39,11 @@ jobs:
         run: |
           New-Item -Path ${{ runner.temp }}\scanner -ItemType Directory
           dotnet tool update dotnet-sonarscanner --tool-path ${{ runner.temp }}\scanner
+      - name: Download Dalamud
+        shell: powershell
+        run: |
+          Invoke-WebRequest -Uri https://goatcorp.github.io/dalamud-distrib/latest.zip -OutFile latest.zip
+          Expand-Archive -Path latest.zip -DestinationPath "$env:APPDATA\XIVLauncher\addon\Hooks\dev" -Force
       - name: Build and analyze
         shell: powershell
         run: |
